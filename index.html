@@ -8,8 +8,14 @@
 </head>
 
 <body>
-    <h3>A minute joke show week #14</h3>
+    <div>
+        <h2>The Three Pigs</h2>
+        <i>Host by Mike, Nio, and Kevin.</i>
+    </div>
+    <h3>The Three Pigs Week #14</h3>
     <h3>April 1, 2021</h3>
+    <hr>
+
     <h3>attendance list:</h3>
     <input type="checkbox" id="Mike" name="Mike" value="Mike">
     <label for="Mike"> Mike</label><br>
@@ -17,41 +23,105 @@
     <label for="Nio"> Nio</label><br>
     <input type="checkbox" id="Kevin" name="Kevin" value="Kevin">
     <label for="Kevin"> Kevin</label><br>
-
+    <hr>
     <details>
         <summary>Agenda:</summary>
-        <main>The meeting will simply cover a joke for a minute.</main>
+        <main>The meeting will finish off the topic from last meeting.</main>
     </details>
-
     <section>
         <h4>Things unfinish from last meeting:</h4>
-        <p>A research found that there is one genius among every three people.</p>
+        <ul>
+            <li><strong>A research found that there is one genius among every three people.</strong></li>
+        </ul>
     </section>
-
     <section>
         <h4>Things need to be talk about:</h4>
-        <p>Today's meeting would be focus on proving or disproving the research from last meeting.</p>
+        <ol>
+            <li>Today's meeting would be focus on proving or disproving the research from last meeting.</li>
+            <li>Discuss about how many times <b>Kevin has been late.</b></li>
+        </ol>
     </section>
-
     <section>
         <h4>Miscellaneous comments / questions / concerns:</h4>
-        <p>Kevin: Sorry I will be late for this meeting!</p>
+        <p>Kevin: Sorry I will be <em>late for this meeting!</em></p>
     </section>
-
+    <hr>
+    <b>Image:</b><br>
     <img src="ThreePigs.PNG" alt="Hey there" width="250" height="250"><br>
     <nav>
         <a href="ThreePigs.PNG">Open Image</a>
     </nav>
-
+    <hr>
+    <b>Video:</b><br>
     <video width="400" controls>
         <source src="video1739966928.mp4" type="video/mp4">
     </video><br>
-
+    <b>Audio:</b><br>
     <audio controls>
         <source src="audio1739966928.m4a" type="audio/x-m4a">
     </audio>
+    <hr>
+    <hr>
+    <hr>
+    <h2>Forms</h2>
+    <form action="">
+        <label for="amount">Donation amount:</label><br>
+        <input type="text" id="amount" name="amount" value="Thank you!"><br>
+        <input type="button" value="Submit">
+    </form>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>Who is your favorite Pig</legend>
 
-</body>
+            <input type="radio" id="Mike">
+            <label for="Mike">Mike</label><br />
+
+            <input type="radio" id="Nio">
+            <label for="Nio">Nio</label><br />
+
+            <input type="radio" id="Kevin">
+            <label for="Kevin">Kevin</label>
+        </fieldset>
+    </form>
+    <hr>
+    <form>
+        <label for="test">Any feedback:</label><br>
+        <textarea id="test" name="test" rows="4" cols="50">
+         The show is excellent!
+          </textarea><br>
+        <input type="button" value="Submit">
+    </form>
+    <hr>
+    <label for="choice">How many times do you think Kevin has been late?</label>
+    <input list="list" id="choice" name="choice" />
+
+    <datalist id="list">
+        <option value="1">
+        <option value="10">
+        <option value="100">
+        <option value="10000">
+        <option value="All of the above">
+    </datalist>
+    <hr>
+    <form>
+        <label for="hogDog">So, how many hot dog should Kevin eat?</label>
+        <select name="hogDog" id="hogDog">
+            <option value="1">1000</option>
+            <option value="2">1000</option>
+            <option value="3">1000</option>
+            <option value="4">lol</option>
+        </select>
+        <br>
+        <input type="button" value="Submit">
+    </form>
+    <hr>
+    <details>
+        <summary>Actually</summary>
+        <p>The forms do nothing~~</p>
+        <p>Thank you for visiting!</p>
+    </details>
+</body><br><br>
 <footer>
     The site was created by Kevin Yu
 </footer>
