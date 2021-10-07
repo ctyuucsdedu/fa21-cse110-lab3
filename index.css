@@ -5,6 +5,7 @@
     font-size: 1cm;
     width: 30ex;
     height: 8em;
+    display:list-item;
 }
 #title{
     color:pink;
@@ -12,6 +13,7 @@
     font-size: 50px;
     width: 300mm;
     height: 10rem;
+    text-decoration: purple;
     text-align: center;
     margin: auto;
 }
@@ -25,6 +27,10 @@
     padding-bottom: 5pt;
     padding-left: 5pt;
     padding-right: 5pt;
+    border-style: ridge;
+    border-color: pink;
+    border-width: 3ex;
+    border-radius: 3ex;
 }
 *{
     font-style: italic;
@@ -43,6 +49,10 @@ footer:hover{
     color: pink;
 }
 
+footer:active{
+    color: red;
+}
+
 video, audio{
     position: static;
 }
@@ -51,8 +61,23 @@ body h3{
     margin: auto;
 }
 
-detail>summary{
-    margin: auto;
+.flexbox-container>main{
+    margin: 5pt 5pt 5pt 5pt;
+    padding: 5pt 5pt 5pt 5pt;
+    display: flex;
+    background-color: pink;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    background-color: pink;
+    grid-auto-flow: column;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    align-self: center;
 }
 
 img ~ nav{
