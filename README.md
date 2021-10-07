@@ -1,2 +1,2 @@
 URL:<br>
-https://ctyuucsdedu.github.io/Lab2/
+https://ctyuucsdedu.github.io/fa21-cse110-lab3/
