@@ -5,35 +5,45 @@
     <meta charset="UTF-8">
     <title>The Three Pigs #14</title>
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div>
-        <h2>The Three Pigs</h2>
-        <i>Host by Mike, Nio, and Kevin.</i>
+        <h2 id="title">The Three Pigs</h2>
+        <i id="hostBy">Host by Mike, Nio, and Kevin.</i>
     </div>
     <h3>The Three Pigs Week #14</h3>
     <h3>April 1, 2021</h3>
     <hr>
 
-    <h3>attendance list:</h3>
-    <input type="checkbox" id="Mike" name="Mike" value="Mike">
-    <label for="Mike"> Mike</label><br>
-    <input type="checkbox" id="Nio" name="Nio" value="Nio">
-    <label for="Nio"> Nio</label><br>
-    <input type="checkbox" id="Kevin" name="Kevin" value="Kevin">
-    <label for="Kevin"> Kevin</label><br>
+    <div class="box checklist">
+        <h3>attendance list:</h3>
+        <input type="checkbox" id="Mike" name="Mike" value="Mike">
+        <label for="Mike"> Mike</label><br>
+        <input type="checkbox" id="Nio" name="Nio" value="Nio">
+        <label for="Nio"> Nio</label><br>
+        <input type="checkbox" id="Kevin" name="Kevin" value="Kevin">
+        <label for="Kevin"> Kevin</label><br>
+    </div>
     <hr>
+
     <details>
         <summary>Agenda:</summary>
         <p>The meeting will finish off the topic from last meeting.</p>
     </details>
+
     <section>
         <h4>Things unfinish from last meeting:</h4>
         <ul>
             <li><strong>A research found that there is one genius among every three people.</strong></li>
         </ul>
     </section>
+
     <section>
         <h4>Things need to be talk about:</h4>
         <ol>
@@ -41,9 +51,11 @@
             <li>Discuss about how many times <b>Kevin has been late.</b></li>
         </ol>
     </section>
-        <header>Miscellaneous comments / questions / concerns:</header>
-        <main>Kevin: Sorry I will be <em>late for this meeting!</em></main>
+
+    <header>Miscellaneous comments / questions / concerns:</header>
+    <main>Kevin: Sorry I will be <em>late for this meeting!</em></main>
     <hr>
+
     <b>Image:</b><br>
     <img src="ThreePigs.PNG" alt="Hey there" width="250" height="250"><br>
     <nav>
@@ -61,6 +73,7 @@
     <hr>
     <hr>
     <hr>
+
     <h2>Forms</h2>
     <form>
         <label for="amount">Donation amount:</label><br>
@@ -73,10 +86,10 @@
             <legend>Who is your favorite Pig</legend>
 
             <input type="radio" id="Mike1">
-            <label for="Mike1">Mike</label><br />
+            <label for="Mike1">Mike</label><br>
 
             <input type="radio" id="Nio1">
-            <label for="Nio1">Nio</label><br />
+            <label for="Nio1">Nio</label><br>
 
             <input type="radio" id="Kevin1">
             <label for="Kevin1">Kevin</label>
